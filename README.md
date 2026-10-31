@@ -129,24 +129,25 @@ Because of the missing data setting, this test shows that the alarm, SNS and Lam
 <img width="1772" height="346" alt="EC2-instance with anamoly" src="https://github.com/user-attachments/assets/b02f84b9-eed5-41a3-abe3-a25fd5cf2793" />
 
 
-**2. CloudWatch alarm in the ALARM state**
 
+**2. CloudWatch alarm in the ALARM state**
 <img width="1775" height="535" alt="CloudWatch Alarm State (ALARM  Red)" src="https://github.com/user-attachments/assets/0f7654c6-e41c-49ef-9aae-03412a8c8be9" />
 
 
-**3. CPU graph during the stress test, with the anomaly detection band**
 
+**3. CPU graph during the stress test, with the anomaly detection band**
 <img width="1580" height="710" alt="Metric Graph showing CPU Spike   Threshold Breach" src="https://github.com/user-attachments/assets/2ab09ef3-c7af-4ad7-ba6e-5d55c24b3580" />
 
 
-**4. Lambda log stream showing the alarm event**
 
+**4. Lambda log stream showing the alarm event**
 <img width="1522" height="797" alt="AWS Lambda CloudWatch Log Streams showing successful event parsing" src="https://github.com/user-attachments/assets/afdcf043-2f3f-444e-8f59-25acef286982" />
 
 
-**5. SNS alert email in the inbox**
 
+**5. SNS alert email in the inbox**
 <img width="1552" height="728" alt="Amazon SNS Email Notification delivered to inbox" src="https://github.com/user-attachments/assets/34ce049d-96ca-4a25-a615-066fb73c6f21" />
+
 
 
 ## Limitations
