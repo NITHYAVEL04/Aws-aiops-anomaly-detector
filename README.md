@@ -8,30 +8,9 @@ This project implements an AIOps (Artificial Intelligence for IT Operations) Pip
 
 📊 Architecture & Flow Diagram
 
-  +-------------------+
-  |   AWS EC2 Node    | (Generates operational telemetry / CPU metrics)
-  +---------+---------+
-            |
-            v (Continuous Metric Ingestion)
-  +-------------------+
-  | Amazon CloudWatch | (ML-Driven Anomaly Detection Model & Dynamic Band)
-  +---------+---------+
-            |
-            v (Breach Trigger / State Change to ALARM)
-  +-------------------+
-  |   AWS CloudWatch  | 
-  |       Alarm       |
-  +---------+---------+
-            |
-            v (Invokes Event Payload)
-  +-------------------+
-  |    AWS Lambda     | (Serverless AIOps Event Handler & Python Script)
-  +---------+---------+
-            |
-            v (Dispatches Alert)
-  +-------------------+
-  |    Amazon SNS     | (Delivers real-time incident notification to Email)
-  +-------------------+
+
+  |   AWS EC2 Node    | (Generates operational telemetry / CPU metrics) ->  (Continuous Metric Ingestion) -> | Amazon CloudWatch | (ML-Driven Anomaly Detection Model & Dynamic Band) -> (Breach Trigger / State Change to ALARM) -> AWS CloudWatch -> |       Alarm       | -> (Invokes Event Payload) -> |    AWS Lambda     | (Serverless AIOps Event Handler & Python Script) -> (Dispatches Alert) -> |    Amazon SNS     | (Delivers real-time incident notification to Email)
+ 
 
 
 🛠️ Resource Breakdown & Connectivity
