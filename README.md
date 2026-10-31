@@ -44,3 +44,12 @@ Serverless Native: Zero server maintenance, automated scaling, and fully managed
 
 In modern cloud environments managing hundreds or thousands of microservices, manual monitoring is unsustainable. AIOps shifts operations from reactive firefighting to intelligent automation.
 By mastering serverless event-driven pipelines, CloudWatch machine learning models, and automated telemetry handling, DevOps engineers can drastically reduce Mean Time to Detection (MTTD) and Mean Time to Resolution (MTTR), ensuring high availability and robust system resilience.
+
+📸 Execution Proof & Verification Screenshots
+
+<img width="1772" height="346" alt="EC2-instance with anamoly" src="https://github.com/user-attachments/assets/aa3c4963-fc00-4eb8-98bd-b0294048605a" />
+<img width="1775" height="535" alt="CloudWatch Alarm State (ALARM  Red)" src="https://github.com/user-attachments/assets/4011255d-e7c8-451e-89e3-60097bb0a2db" />
+<img width="1580" height="710" alt="Metric Graph showing CPU Spike   Threshold Breach" src="https://github.com/user-attachments/assets/ed5632c7-eb1d-4ef1-901b-2aec9b710e8d" />
+<img width="1522" height="797" alt="AWS Lambda CloudWatch Log Streams showing successful event parsing" src="https://github.com/user-attachments/assets/52ba91d6-5a33-41ad-8fa6-deae3d309bec" />
+<img width="1552" height="728" alt="Amazon SNS Email Notification delivered to inbox" src="https://github.com/user-attachments/assets/7cc6c9b9-d5b6-47b8-8517-7b97bdd3cfd4" />
+
